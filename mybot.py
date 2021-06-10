@@ -3,7 +3,7 @@ from datetime import datetime
 import pytz
 from test import get_chat
 #from timecheck import which_hour
-TOKEN = '1841601582:AAGxpaF6Ud69kuFE4fwRMfrTRBT3h3yDJuw'
+TOKEN = '<BOT TOKEN>'
 bot=telebot.TeleBot(TOKEN)
 
 def sendMessage(chat_id,text):
